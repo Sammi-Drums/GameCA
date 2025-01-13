@@ -1,0 +1,20 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\Computer\commits\GameCA -B E:\Computer\commits\GameCA\cmake-build-debug
+CMake Error at C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/SFML/lib/cmake/SFML/SFMLConfig.cmake:80 (message):
+  Unsupported SFML component: graphics
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (find_package)
+
+
+CMake Error at CMakeLists.txt:9 (find_package):
+  Found package configuration file:
+
+    C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/SFML/lib/cmake/SFML/SFMLConfig.cmake
+
+  but it set SFML_FOUND to FALSE so package "SFML" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Unsupported SFML component: graphics
+
+
+
+-- Configuring incomplete, errors occurred!
